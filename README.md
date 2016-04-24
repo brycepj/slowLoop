@@ -1,4 +1,4 @@
-# slowLoop
+# slowLoop(iterable, op, ms (milliseconds), cfg)
 
 Throttled iteration over an iterable, passing items into passed custom function with custom params.
 Works well for large scale i/o (e.g. scraping, db read/write, file read/write).
